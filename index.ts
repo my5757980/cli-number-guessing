@@ -7,6 +7,7 @@ import inquirer from "inquirer"
 
 
 const randomNumber = Math.floor(Math.random() * 6 + 1);
+console.log("welcome to cli number guessing")
 const answer = await inquirer.prompt([
     {
        name: "userGussedNumber",
